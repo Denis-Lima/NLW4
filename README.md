@@ -8,6 +8,7 @@ Escolha um diretório para baixar o projeto
 Caso queira usar `npm` ao invés de `yarn`, só trocar o comando `yarn` por `npm`
 ```
 git clone https://github.com/Denis-Lima/NLW4.git
+cd NLW4
 yarn install
 yarn dev
 ```
