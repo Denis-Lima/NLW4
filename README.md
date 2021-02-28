@@ -11,3 +11,18 @@ git clone https://github.com/Denis-Lima/NLW4.git
 yarn install
 yarn dev
 ```
+
+### Uso e visualização
+Para fazer o uso de forma simples, pode ser usado o [Postman](https://www.postman.com/downloads/) ou [Insomnia](https://insomnia.rest/download/core/?) para realizar as requisições  
+Para fácil visualização dos dados dentro do banco, utilize o [Beekeeper-studio](https://www.beekeeperstudio.io/get).
+
+#### Beekeeper Studio
+* Para fazer a conexão selecione a opção "SQLite"
+* procure pelo arquivo que está no diretório `src/database/database.sqlite`
+* pressione a opção "Connect"
+
+#### Insomnia
+* Para realizar requisições pelo Insomnia, cliquei na opção "+" para criar uma nova requisição  
+* Escolha o tipo (GET ou POST)  
+* Coloque a URL `http://localhost:3333/`
+* Escolha uma rota e seu método (Todas as rotas estão no arquivo `src/routes.ts`)
